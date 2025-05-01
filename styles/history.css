@@ -7,7 +7,6 @@ body {
     color: burlywood;
 }
 
-
 main {
     display: flex;
     flex-wrap: wrap;
@@ -22,4 +21,9 @@ section {
     border-radius: 5px;
     padding: 5px;
 
+}
+
+.tim {
+    /* flex-grow: 2; */
+    background-color: lightblue;
 }
