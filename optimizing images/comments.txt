@@ -1,0 +1,12 @@
+80% JPG - 45.71k
+The quality is very good
+40% JPG - 16.39k
+The quality is medium
+GIF 256 - 73.6k
+The quality is medium
+GIF 64 - 46.14k
+The quality is low
+GIF 8 - 23.66k
+The quality is very low
+PNG 24 - 183.8k
+Quality is very good
