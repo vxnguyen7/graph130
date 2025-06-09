@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Based Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
+    <main>
+        <section>
+            <h1> Grid Based Layout</h1>
+            <p> Graphic and web-designers work in the dimension that can be broken down to the rectangle, be it a page or a screen. This determines the shape of the grid as well. The lines within the grid are customized. Creators can build the grid themselves or rely on ready grid systems, while designers can use the same grid system throughout the whole piece of design, or create a new grid for each page to express their ideas.<a href="https://www.eleken.co/blog-posts/grid-layout-design-history-tips-and-best-examples" target="_blank"> eleken.co</a> /</p>
+        </section>
+
+        <section class="pure-g">
+            <article class="pure-u-1-3">
+                <h2>The Cove</h2>
+                <p><i>by Seth Rosenbloom</i></p>
+                <p>I’m resting on a tide-bleached tree, and you<br>
+                are looking for stones. Like we’ve always done,<br>
+                from back when our son was little. But now,<br>
+                it’s up to us to fill in the bucket. Stones lapped<br>
+                smooth by the force of the moon. Pigmented<br>
+                in colors of sibling planets. Mars-red. Jupiters<br>
+                with ghostly rings. You’re too far away to hear,<br>
+                and there is no pain, so I won’t make a fuss. It’s just<br>
+                thumps in my throat. My pulse runs up numbers<br>
+                on the screen of my watch, even as I sit here, still.<br>
+                My mind re-walks the trail through the forest<br>
+                to where the headlands open. Down the switchback.<br>
+                Past fallen old growths, their upended roots spider<br>
+                towards the sky. We’re the only ones who hiked here<br>
+                today. Even if there were cell coverage, how many hours<br>
+                before help arrives? So, breathe, bear down on the abdomen<br>
+                like the cardiologist said. Listen to the wind rush<br>
+                into this mouth of salinity. This cove, embraced by hills<br>
+                that shoulder hemlocks. Lava born from the mantel,<br>
+                cooled into outcrops, carved to pool star fish and purple<br>
+                anemones. Home of endless give and take.<br>/</p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>Of the Art of Cobweb Painting</h2>
+                <p><i>Alba Cid | Translated by Jacob Rogers</i></p>
+                <p>I attempted to write Paradise.<br>
+                Do not move, I said,<br>
+                allow the wind to speak.<br>
+                that is Paradise.<br>
+                Versioning Pound’s “Canto CXX”<br>
+                1.<br>
+                planets, that is—the tinted ones:<br>
+                Venus going down, or Mars,<br>
+                such are their faces<br>
+                in the Ladin “Val de Puster,”<br>
+                Tyrolese monks crisscross the mountains harvesting the threads of silkworms and spiders, tubular secretions,<br>
+                gauze that must subsequently be cleaned, set in layers, and stretched over<br>
+                a tiny oval frame, depicting, for instance, the beauty of Flemish princesses<br>
+                or the earliest representations of the world.<br>
+                this is the sixteenth century<br>
+                and we watch them advance among the hedges; their capes<br>
+                flutter and cast shimmers, growth rings or lichen,<br>
+                they crouch until they can hear the insects fleeing and the shadows retracting;<br>
+                they introduce their forearms into the darkness and remove the webs;<br>
+                they lop off the mountain-breast, but they proceed.<br></p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>Conversation Piece</h2>
+                <p><i>by Rae Armantrout</i></p>
+                <p>There is much to be said<br>
+                on the way vine leaves<br>
+                <br>
+                accede<br>
+                <br>
+                to the wishes<br>
+                of the wind,<br>
+                <br>
+                all aflutter,<br>
+                then rebound<br>
+                <br>
+                as if nothing<br></p>
+            </article>
+        </section>    
+        <section class="pure-g">
+            <img src="../images/cove1.jpg" class="pure-u-1-4" alt="cove image" >
+            <img src="../images/cove2.jpg" class="pure-u-1-4" alt="cove image">
+            <img src="../images/cobweb.jpg" class="pure-u-1-4" alt="cove image">
+            <img src="../images/wind.jpg" class="pure-u-1-4" alt="cove image">
+        </section>
+        <section>
+            <p> EVCC | Spring 2025 | Vince Nguyen</p>
+        </section>
+    </main>
+    
+
+
+
+</body>
+</html>
