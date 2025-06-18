@@ -5,6 +5,14 @@
 		<title>Graph 130 - Vinh Cao Nhat Nguyen</title>
 	</head>
 	<body>
+		 <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
 		<h1>Vinh Cao Nhat Nguyen</h1>
 		<h2>EvCC - GRAPH 130 - SPRING 2025 </h2>
 		<h3>How many quarters have you attended EvCC?</h3>
