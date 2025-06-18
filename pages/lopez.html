@@ -3,12 +3,34 @@
 <head>
      <div id="nav-placeholder"></div>
     <script>
-        fetch('nav.html')
-        .then(response => response.text())
-        .then(data => {
-        document.getElementById('nav-placeholder').innerHTML = data;
-        });
-        </script>
+
+fetch('nav.html')
+
+ .then(response => response.text())
+
+ .then(data => {
+
+document.getElementById('nav-placeholder').innerHTML = data;
+
+// Wait until nav.html is loaded, THEN attach toggle behavior
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+
+const navbarLinks = document.getElementsByClassName('kiwi')[0];
+
+if (toggleButton && navbarLinks) {
+
+toggleButton.addEventListener('click', () => {
+
+navbarLinks.classList.toggle('active');
+
+ });
+
+ }
+
+ });
+
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orcas Island</title>
